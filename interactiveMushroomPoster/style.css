@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #D8C593;
+    height:100vh;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+}
+.top{
+    margin:4px;
+    background-color: #DD7631;
+    border-radius:10px;
+    height:220px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:#708160 solid 6px;
+}
+.middle{
+    margin:4px;
+    border:#708160 solid 6px;
+    border-radius:10px;
+    height:180px;
+    display:flex;
+    flex:1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom{
+    background-color: #DD7631;
+    border:#708160 solid 6px;
+    border-radius:10px;
+    height:220px;
+    display:flex;
+    flex:1;
+    justify-content: space-around;
+    align-items:center;
+    margin:4px;
+}
+.center{
+    background-color: #BB3B0E;
+    border:#708160 solid 20px;
+    height:320px;
+    width:340px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    border-radius:60%;
+    top:290px; left:910px;
+
+}
+img{
+    height:200px;
+    width:150px;
+    border:#708160 solid 4px;
+    border-radius: 50%;
+    background-color: #D8C593;
+}
+.oyster{
+    height:300px;
+    width:220px;
+    border-radius:20px;
+
+}
+.mediumMush{
+    height:280px;
+    width:240px;
+}
+.morel{
+    height:240px;
+    width:160px;
+    border-radius:20px;
+}
+.other{
+    height:300px;
+    width:220px;
+    border-radius:35%;
+}
+.bella{
+    height:200px;
+    width:200px;
+    border-radius:40%;
+}
+.truffle{
+    height:320px;
+    width:245px;
+    border-radius:35%;
+}
+
+.button{
+    height:200px;
+    width:200px;
+    border-radius:30%;
+}
+.lobster{
+    height:235px;
+    width:255px;
+    border-radius:20px;
+}
+.chickenOf{
+    width:300px;
+    height:280px;
+    border-radius:40%;
+}
+.shadow{
+    box-shadow:5px 5px 5px #BB3B0E;
+    position:relative;
+    bottom:5px;
+    cursor:pointer;
+
+}
+.popups{
+    background-color: #BB3B0E;
+    border:#708160 solid 20px;
+    height:340px;
+    width:360px;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    border-radius:60%;
+    top:290px; left:910px;
+
+}
+#textBox{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
